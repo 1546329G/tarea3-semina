@@ -64,15 +64,68 @@
     </div>
   </section>
 
+  <div class="features">
+    <div class="feature">
+      <div class="icon">🌱</div>
+      <h3>100% Orgánico</h3>
+      <p>Sin pesticidas ni químicos. Cultivado de forma natural y sostenible.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🚜</div>
+      <h3>Directo del Agricultor</h3>
+      <p>Apoyamos a productores locales. Del campo a tu mesa sin intermediarios.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🚚</div>
+      <h3>Entrega Rápida</h3>
+      <p>Recibe tus productos frescos en menos de 24 horas en tu hogar.</p>
+    </div>
+  </div>
 
-  
+  <section class="section">
+    <h2 class="section-title">Productos destacados</h2>
+    <p class="section-subtitle">Selección fresca de la semana, directamente de nuestros agricultores.</p>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="thumb">🍎</div>
+        <div class="info">
+          <h4>Manzana Orgánica</h4>
+          <div class="price">$2.50 / kg</div>
+          <div class="origin">Origen: Valle Central</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="thumb">🥦</div>
+        <div class="info">
+          <h4>Brócoli Fresco</h4>
+          <div class="price">$1.80 / unidad</div>
+          <div class="origin">Origen: Sierra Norte</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="thumb">🍅</div>
+        <div class="info">
+          <h4>Tomate Cherry</h4>
+          <div class="price">$3.20 / kg</div>
+          <div class="origin">Origen: Costa Sur</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="thumb">🥕</div>
+        <div class="info">
+          <h4>Zanahoria Baby</h4>
+          <div class="price">$1.50 / bolsa</div>
+          <div class="origin">Origen: Tierras Altas</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <p>© <span>GANDY</span> 2026 · Todos los derechos reservados por aws</p>
-   <h3>fuentes:</h3>
-    <p> https://www.infobae.com/peru/2026/02/15/therians-en-lima-que-son-y-de-que-trata-el-fenomeno-que-crece-en-redes-y-ya-es-visible-en-varias-ciudades-de-latinoamerica/</p>
-    <p>http://www.gob.pe/institucion/insm/noticias/1358213-identidad-o-refugio-emocional-el-fenomeno-therian-crece-entre-adolescentes-peruanos</p>
+    <p>© <span>EcoMarket</span> 2026 · Todos los derechos reservados</p>
   </footer>
 
 </body>
 </html>
+
+
