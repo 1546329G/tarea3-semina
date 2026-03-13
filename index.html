@@ -77,33 +77,43 @@
         <h2>Contáctanos</h2>
         <p>
           Si tienes alguna pregunta, sugerencia o deseas más información sobre nuestro contenido, puedes ponerte en
-          contacto
-          con nosotros. Estamos abiertos a escuchar opiniones, recibir comentarios y mejorar continuamente la
-          información
-          que compartimos.
+          contacto con nosotros. Estamos abiertos a escuchar opiniones, recibir comentarios y mejorar continuamente la
+          información que compartimos.
         </p>
-        <p>
-          Puedes escribirnos a través de nuestro correo electrónico o seguirnos en nuestras redes sociales:
-        </p>
+        <p>Puedes escribirnos a través de nuestro correo electrónico o seguirnos en nuestras redes sociales:</p>
 
         <!-- FORMULARIO -->
-        <!-- FORMULARIO -->
-        <form action="https://formsubmit.co/sawade2009qa@gmail.com" method="POST" class="contact-form">
+        <div class="form-wrapper">
+          <form action="https://formsubmit.co/sawade2009qa@gmail.com" method="POST" class="form-contacto">
 
-          <!-- Extras recomendados -->
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_subject" value="Nuevo mensaje desde mi web">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde mi web">
 
-          <input type="text" name="name" placeholder="Tu nombre" required />
-          <input type="email" name="email" placeholder="Tu correo" required />
-          <input type="text" name="subject" placeholder="Asunto" />
-          <textarea name="message" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
-          <button type="submit">Enviar</button>
+            <div class="form-group">
+              <label class="form-label">Tu nombre</label>
+              <input class="form-input" type="text" name="name" placeholder="Ej: Juan Pérez" required />
+            </div>
 
-        </form>
+            <div class="form-group">
+              <label class="form-label">Tu correo</label>
+              <input class="form-input" type="email" name="email" placeholder="Ej: juan@correo.com" required />
+            </div>
 
-        <!-- Botón de correo -->
-        <a href="mailto:contacto@theriansperu.com" class="contact-btn">Escríbenos un correo</a>
+            <div class="form-group">
+              <label class="form-label">Asunto</label>
+              <input class="form-input" type="text" name="subject" placeholder="¿De qué trata tu mensaje?" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Mensaje</label>
+              <textarea class="form-textarea" name="message" placeholder="Escribe tu mensaje aquí..."
+                required></textarea>
+            </div>
+
+            <button class="form-btn" type="submit">Enviar mensaje</button>
+
+          </form>
+        </div>
 
         <!-- Redes sociales -->
         <div class="social-links">
@@ -121,6 +131,7 @@
             <img src="./img/Whatsapp.avif" alt="WhatsApp" />
           </a>
         </div>
+
       </section>
 
     </div>
