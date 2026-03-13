@@ -6,14 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Therians en Perú</title>
   <link href="./css/styles.css" rel="stylesheet" />
-   <link href="./css/formulario.css" rel="stylesheet" />
+  <link href="./css/formulario.css" rel="stylesheet" />
   <link rel="shortcut icon" href="./img/icoo.ico" type="image/x-icon">
 </head>
 
 <body>
 
   <header>
-    <h1>¿Therians en Perú?</h1>
+    <!-- CARRUSEL DE FONDO -->
+    <div class="carrusel">
+      <div class="carrusel-slide active" style="background-image: url('./img/F1.jpg')"></div>
+      <div class="carrusel-slide" style="background-image: url('./img/F2.jpg')"></div>
+  
+    </div>
+
+    <!-- TÍTULO ENCIMA DEL CARRUSEL -->
+    <header>
+      <img src="./img/icoo.ico" alt="TheriPerú Logo" style="height:50px; vertical-align:middle;">
+      <h1>TheriPerú</h1>
+    
+    </header>
+    <!-- PUNTOS DE NAVEGACIÓN -->
+    <div class="carrusel-dots">
+      <span class="dot active" onclick="irSlide(0)"></span>
+      <span class="dot" onclick="irSlide(1)"></span>
+      <span class="dot" onclick="irSlide(2)"></span>
+    </div>
   </header>
 
   <nav>
@@ -131,6 +149,7 @@
             target="_blank" rel="noopener noreferrer">
             <img src="./img/Whatsapp.avif" alt="WhatsApp" />
           </a>
+          <p></p>
         </div>
 
       </section>
